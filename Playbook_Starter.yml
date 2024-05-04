@@ -1,0 +1,9 @@
+---
+- name: This is the name of a play
+  hosts: servera.lab.example.com
+
+  tasks:
+
+    - name: This is the first task in the play
+      ansible.builtin.debug:
+        msg: I'm the first task in the playbook tasks section
